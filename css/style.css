@@ -21,6 +21,14 @@ img[src="logo.png"] {
     height: auto;
     display: flex;
 }
+
+img[src="cover.jpg.webp"] {
+    height: auto;
+    width: 400px;
+    display: flex;
+    border: 1px solid whitesmoke;
+}
+
 a {
     text-decoration: none;
     color: #e5e7eb;
@@ -53,13 +61,17 @@ li {
 .bottom {
     padding-top: 70px;
     padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
     display: flex;
     align-content: flex-start;
     color: #e5e7eb;
+    align-content: center;
+    justify-content: space-between;
 }
 
 .intro-text {
-    width: 200px;
+    width: 350px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
@@ -84,3 +96,4 @@ li {
     border-radius: 10px;
     
 }
+
