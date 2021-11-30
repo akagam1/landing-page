@@ -5,11 +5,44 @@ body {
     flex-direction: column;
 }
 
+.header {
+    display: flex;
+    background-color: #1f2937;
+    padding-left: 75px;
+    padding-top: 20px; 
+    padding-right: 75px;
+    color: #e5e7eb;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+img[src="logo.png"] {
+    width: 200px;
+    height: auto;
+    display: flex;
+}
+
 .footer {
     background-color: #1f2937;
-    color: white;
+    color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;   
+}
+
+li {
     padding: 10px;
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
