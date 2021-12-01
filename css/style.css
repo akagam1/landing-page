@@ -62,10 +62,10 @@ li {padding: 10px;}
 }
 
 .bottom {
-    padding-top: 70px;
+    padding-top: 30px;
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     display: flex;
     align-content: flex-start;
     color: #e5e7eb;
@@ -116,6 +116,7 @@ li {padding: 10px;}
     padding-top: 25px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 25px;
 }
 
 .text {
