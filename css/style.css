@@ -33,7 +33,7 @@ img[src="cover.jpg.webp"] {
 img[src="img2.jpg"], [src="img1.jpg"], [src="img3.jpg"] {
     height: 250px;
     width: 200px;
-    border: 3px solid #3882f6;
+    border: 4px solid #3882f6;
     border-radius: 7px;
 }
 
@@ -145,6 +145,7 @@ li {padding: 15px;}
     font-size: 38px;
     color: #1f2937;
     font-style: italic;
+    font-weight: 300;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -153,4 +154,34 @@ li {padding: 15px;}
 .person {
     text-align: right;
     font-size: 25px;
+}
+
+.call-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.blue-section {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 20px;
+    padding: 20px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4{color: #e5e7eb;}
+
+.button {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #f9faf8;
+    border-radius: 20px;
+    width: 100px;
+    padding: 2px;
 }
