@@ -113,7 +113,7 @@ li {padding: 15px;}
 }
 
 .groups {
-    padding-top: 25px;
+    padding-top: 35px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 25px;
@@ -127,4 +127,30 @@ li {padding: 15px;}
     justify-content: center;
 }
 
+.quote-section {
+    height: 200px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.quote {
+    font-size: 38px;
+    color: #1f2937;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.person {
+    text-align: right;
+    font-size: 25px;
+}
